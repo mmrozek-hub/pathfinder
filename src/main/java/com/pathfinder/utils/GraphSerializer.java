@@ -1,4 +1,4 @@
-package com.pathfinder;
+package com.pathfinder.utils;
 
 import org.jgrapht.Graph;
 import org.jgrapht.graph.DefaultEdge;
@@ -6,14 +6,7 @@ import org.jgrapht.graph.SimpleGraph;
 
 public class GraphSerializer {
 
-	
-	public static void main(String[] args) {
-		
-		System.out.println(createStringGraph().toString());
-		
-	}
-	
-	
+
     private static Graph<String, DefaultEdge> createStringGraph()
     {
         Graph<String, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
