@@ -1,12 +1,7 @@
 package com.pathfinder.service;
 
-import java.util.List;
-import java.util.Optional;
-
 import org.jgrapht.graph.DefaultEdge;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-import org.springframework.data.rest.webmvc.RestControllerConfiguration;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
