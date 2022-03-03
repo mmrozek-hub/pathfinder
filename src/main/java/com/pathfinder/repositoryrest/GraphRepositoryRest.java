@@ -11,7 +11,6 @@ import com.pathfinder.model.Graph;
 @RepositoryRestResource(collectionResourceRel = "graphs", path = "graphs")
 public interface GraphRepositoryRest extends PagingAndSortingRepository<Graph, Long> {
 
-	
 	List<Graph> findByName(@Param("name") String name );
 
 }
