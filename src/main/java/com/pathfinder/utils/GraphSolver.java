@@ -1,12 +1,16 @@
 package com.pathfinder.utils;
 
 import org.jgrapht.Graph;
+
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.SimpleGraph;
+import org.springframework.stereotype.Component;
 
-public class GraphSerializer {
+@Component
+public class GraphSolver {
 
-
+	
+	
     private static Graph<String, DefaultEdge> createStringGraph()
     {
         Graph<String, DefaultEdge> g = new SimpleGraph<>(DefaultEdge.class);
